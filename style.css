@@ -6,7 +6,7 @@
     --extended-block-width: 100%;
     --title-font-size: 37px;
     --subtitle-font-size: 26px;
-    --big-font-size: 14px;
+    --large-font-size: 14px;
     --medium-font-size: 12px;
     --small-font-size: 10px;
 }
@@ -34,6 +34,14 @@ h2.heading {
     font-size: var(--small-font-size);
 }
 
+.medium-text{
+    font-size: var(--medium-font-size);
+}
+
+.large-text{
+    font-size: var(--large-font-size);
+}
+
 .logo {
     width: var(--block-width);
     margin: 2.1875em;
@@ -46,12 +54,12 @@ h2.heading {
     flex-direction: column;
 }
 
-.vectorimg {
+.header-vectorimg {
     display: flex;
     justify-content: flex-end;
 }
 
-.vectorimg img{
+.header-vectorimg img{
     width: 141.66px;
 }
 
@@ -78,4 +86,38 @@ h2.heading {
 h1 {
     line-height: 1.01em;
     margin: 0;
+}
+
+.about{
+    width: var(--block-width);
+    margin: auto;
+}
+
+.about-vectorimg{
+    display: flex;
+    justify-content: center;
+}
+
+.about-vectorimg img{
+    width: 146.32px;
+}
+
+.course{
+    margin-top: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course div{
+    margin-bottom: 1.5em;
+    width: 34%;
+    
+}
+
+.course .medium-text{
+    margin: 0;
+}
+
+.bold{
+    font-weight: bold;
 }
