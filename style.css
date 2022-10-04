@@ -11,7 +11,7 @@
     --small-font-size: 10px;
 }
 
-body{
+body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -28,4 +28,54 @@ h1.heading {
 h2.heading {
     font-size: var(--subtitle-font-size);
     font-weight: 700;
+}
+
+.small-text {
+    font-size: var(--small-font-size);
+}
+
+.logo {
+    width: var(--block-width);
+    margin: 2.1875em;
+}
+
+.header {
+    width: var(--block-width);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.vectorimg {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.vectorimg img{
+    width: 141.66px;
+}
+
+.quote {
+    width: 60%;
+    padding: 0.6em;
+    background-color: #1E4681;
+    color: white;
+    border-radius: 2.32986px;
+    margin-top: 1em;
+}
+
+.quote-text {
+    font-family: 'Roboto Slab';
+    font-size: 11px;
+    margin: 0;
+}
+
+.quote-author{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    line-height: 1.01em;
+    margin: 0;
 }
