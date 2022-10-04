@@ -4,9 +4,28 @@
 :root {
     --block-width: 82%;
     --extended-block-width: 100%;
+    --title-font-size: 37px;
+    --subtitle-font-size: 26px;
+    --big-font-size: 14px;
+    --medium-font-size: 12px;
+    --small-font-size: 10px;
 }
 
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+    font-family: 'Roboto Slab';
+}
+
+h1.heading {
+    font-size: var(--title-font-size);
+    font-weight: 700;
+}
+
+h2.heading {
+    font-size: var(--subtitle-font-size);
+    font-weight: 700;
 }
