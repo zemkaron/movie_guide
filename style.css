@@ -121,3 +121,12 @@ h1 {
 .bold{
     font-weight: bold;
 }
+
+.whatdowelearn{
+    width: var(--block-width);
+    margin: auto;
+}
+
+.whatdowelearn ul{
+    padding-left: 2em;
+}
