@@ -130,3 +130,34 @@ h1 {
 .whatdowelearn ul{
     padding-left: 2em;
 }
+
+.course-program{
+    width: var(--block-width);
+    margin: auto;
+}
+
+.program-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.program{
+    background-color: white;
+    border-radius: 0.8em;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    width: 185.92px;
+    margin-top: 1.5em;
+}
+
+.program p{
+    margin: 0;
+}
+
+.program h3{
+    margin-top: 0;
+}
+
+.about-program{
+    padding: 0 0 0.5em 0.5em;
+}
