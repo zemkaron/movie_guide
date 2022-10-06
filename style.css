@@ -189,3 +189,22 @@ h1 {
 .about-author p {
     font-family: 'Roboto Slab';
 }
+
+.course-info{
+    background-color: #9DC9C8;
+    overflow: auto;
+    padding: 2em;
+}
+
+.course-info h1{
+    font-weight: 400;
+}
+
+.cost p{
+    margin: 0;
+}
+
+.description{
+    display: flex;
+    margin-top: 2em;
+}
