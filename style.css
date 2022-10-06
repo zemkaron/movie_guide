@@ -34,11 +34,11 @@ h2.heading {
     font-size: var(--small-font-size);
 }
 
-.medium-text{
+.medium-text {
     font-size: var(--medium-font-size);
 }
 
-.large-text{
+.large-text {
     font-size: var(--large-font-size);
 }
 
@@ -59,7 +59,7 @@ h2.heading {
     justify-content: flex-end;
 }
 
-.header-vectorimg img{
+.header-vectorimg img {
     width: 141.66px;
 }
 
@@ -78,7 +78,7 @@ h2.heading {
     margin: 0;
 }
 
-.quote-author{
+.quote-author {
     display: flex;
     justify-content: flex-end;
 }
@@ -88,61 +88,61 @@ h1 {
     margin: 0;
 }
 
-.about{
+.about {
     width: var(--block-width);
     margin: auto;
 }
 
-.about-vectorimg{
+.about-vectorimg {
     display: flex;
     justify-content: center;
 }
 
-.about-vectorimg img{
+.about-vectorimg img {
     width: 146.32px;
 }
 
-.course{
+.course {
     margin-top: 1.5em;
     display: flex;
     flex-wrap: wrap;
 }
 
-.course div{
+.course div {
     margin-bottom: 1.5em;
     width: 34%;
-    
+
 }
 
-.course .medium-text{
+.course .medium-text {
     margin: 0;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
-.whatdowelearn{
+.whatdowelearn {
     width: var(--block-width);
     margin: auto;
 }
 
-.whatdowelearn ul{
+.whatdowelearn ul {
     padding-left: 2em;
 }
 
-.course-program{
+.course-program {
     width: var(--block-width);
     margin: auto;
 }
 
-.program-container{
+.program-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.program{
+.program {
     background-color: white;
     border-radius: 0.8em;
     box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
@@ -150,14 +150,42 @@ h1 {
     margin-top: 1.5em;
 }
 
-.program p{
+.program p {
     margin: 0;
 }
 
-.program h3{
+.program h3 {
     margin-top: 0;
 }
 
-.about-program{
+.about-program {
     padding: 0 0 0.5em 0.5em;
+}
+
+.course-review {
+    background-color: #EFEFEF;
+    padding: 2.25em;
+    margin-top: 2.5em;
+}
+
+.review {
+    background-color: white;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+    padding: 1.3em;
+}
+
+.review-author {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.3em;
+}
+
+.author-avatar{
+    width: 5em;
+    height: 5.25em;
+}
+
+.about-author p {
+    font-family: 'Roboto Slab';
 }
