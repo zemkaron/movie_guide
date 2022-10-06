@@ -208,3 +208,7 @@ h1 {
     display: flex;
     margin-top: 2em;
 }
+
+.description div{
+    margin-right: 1em;
+}
