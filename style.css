@@ -177,8 +177,11 @@ h1 {
 
 .review-author {
     display: flex;
-    justify-content: space-between;
     margin-top: 1.3em;
+}
+
+.about-author{
+    margin-left: 4%;
 }
 
 .author-avatar {
