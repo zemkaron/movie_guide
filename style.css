@@ -212,4 +212,21 @@ h1 {
 .footer{
     background-color: black;
     color: white;
+    padding: 2em 0 0 2em;
+    overflow: auto;
+}
+
+.contact{
+    margin-block: 1.5em;
+}
+
+.socnet{
+    margin-top: 1em;
+}
+
+.socnet img{
+    margin-right: 0.2em;
+}
+.copyright{
+    margin-block: 2em 1em;
 }
