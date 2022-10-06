@@ -181,7 +181,7 @@ h1 {
     margin-top: 1.3em;
 }
 
-.author-avatar{
+.author-avatar {
     width: 5em;
     height: 5.25em;
 }
@@ -190,43 +190,48 @@ h1 {
     font-family: 'Roboto Slab';
 }
 
-.course-info{
+.course-info {
     background-color: #9DC9C8;
     overflow: auto;
     padding: 2em;
 }
 
-.course-info h1{
+.course-info h1 {
     font-weight: 400;
 }
 
-.cost p{
+.cost p {
     margin: 0;
 }
 
-.description{
+.description {
     display: flex;
     margin-top: 2em;
 }
 
-.footer{
+.description div {
+    margin-right: 1em;
+}
+
+.footer {
     background-color: black;
     color: white;
     padding: 2em 0 0 2em;
     overflow: auto;
 }
 
-.contact{
+.contact {
     margin-block: 1.5em;
 }
 
-.socnet{
+.socnet {
     margin-top: 1em;
 }
 
-.socnet img{
+.socnet img {
     margin-right: 0.2em;
 }
-.copyright{
+
+.copyright {
     margin-block: 2em 1em;
 }
