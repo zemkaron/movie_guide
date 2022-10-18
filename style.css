@@ -44,14 +44,34 @@ h2.heading {
 
 .logo {
     width: var(--block-width);
-    margin: 2.1875em;
+    margin: auto;
+}
+
+.logo img {
+    margin-block: 2em;
+    width: 52.19px;
+}
+
+.short-info span {
+    margin-right: 2%;
+}
+
+.short-info {
+    width: var(--block-width);
+    margin: auto;
+}
+
+.short-info img {
+    width: 0.5em;
+    margin-right: 0.5em;
 }
 
 .header {
-    width: var(--block-width);
-    margin: auto;
     display: flex;
     flex-direction: column;
+
+    width: var(--block-width);
+    margin: auto;
 }
 
 .header-vectorimg {
@@ -64,12 +84,12 @@ h2.heading {
 }
 
 .quote {
-    width: 60%;
+    width: 70%;
     padding: 0.6em;
     background-color: #1E4681;
     color: white;
     border-radius: 2.32986px;
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 .quote-text {
@@ -85,12 +105,21 @@ h2.heading {
 
 h1 {
     line-height: 1.01em;
-    margin: 0;
+    margin-block: 0.3em;
 }
 
 .about {
     width: var(--block-width);
     margin: auto;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text {
+    font-size: 12px;
 }
 
 .about-vectorimg {
@@ -103,15 +132,22 @@ h1 {
 }
 
 .course {
+    width: var(--block-width);
+    margin: auto;
     margin-top: 1.5em;
     display: flex;
     flex-wrap: wrap;
+    font-size: 12px;
 }
 
 .course div {
     margin-bottom: 1.5em;
+    margin-right: 1.5em;
     width: 34%;
+}
 
+.course-vectorimg {
+    display: none;
 }
 
 .course .medium-text {
@@ -129,6 +165,7 @@ h1 {
 
 .whatdowelearn ul {
     padding-left: 2em;
+    font-size: 12px;
 }
 
 .course-program {
@@ -180,7 +217,7 @@ h1 {
     margin-top: 1.3em;
 }
 
-.about-author{
+.about-author {
     margin-left: 4%;
 }
 
@@ -191,6 +228,14 @@ h1 {
 
 .about-author p {
     font-family: 'Roboto Slab';
+}
+
+.about-program {
+    font-size: var(--medium-font-size);
+}
+
+.about-program title {
+    font-size: var(--large-font-size);
 }
 
 .course-info {
@@ -210,6 +255,11 @@ h1 {
 .description {
     display: flex;
     margin-top: 2em;
+    font-size: var(--small-font-size);
+}
+
+.description title {
+    font-size: var(--medium-font-size);
 }
 
 .description div {
@@ -217,14 +267,16 @@ h1 {
 }
 
 .footer {
+    display: flex;
+    flex-direction: column;
     background-color: black;
     color: white;
     padding: 2em 0 0 2em;
-    overflow: auto;
 }
 
 .contact {
     margin-block: 1.5em;
+    font-size: var(--medium-font-size);
 }
 
 .socnet {
@@ -235,6 +287,227 @@ h1 {
     margin-right: 0.2em;
 }
 
-.copyright {
+.footer #logo {
+    width: 53px;
+}
+
+/* .copyright {
     margin-block: 2em 1em;
+} */
+
+@media (min-width: 1280px) {
+    :root {
+        --block-width: 82%;
+        --extended-block-width: 100%;
+        --title-font-size: 80px;
+        --subtitle-font-size: 55px;
+        --large-font-size: 24px;
+        --medium-font-size: 20px;
+        --small-font-size: 18px;
+    }
+
+    .header {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .header-text {
+        width: 60%;
+    }
+
+    .header-text p {
+        font-size: var(--medium-font-size);
+    }
+
+    .header-vectorimg {
+        width: 40%;
+        justify-content: center;
+    }
+
+    .header-vectorimg img {
+        width: 304px;
+    }
+
+    .short-info img {
+        width: 1.2em;
+    }
+
+    .logo img {
+        width: 112px;
+        margin-bottom: 5em;
+    }
+
+    .quote {
+        width: 35%;
+        padding: 1.2em;
+        margin-inline: auto;
+    }
+
+    .quote-text {
+        font-size: 25px;
+    }
+
+    .quote-author {
+        font-size: var(--medium-font-size);
+    }
+
+    .about-content {
+        flex-direction: row;
+    }
+
+    .about-content div {
+        width: 47%;
+    }
+
+    .about-text {
+        font-size: 24px;
+    }
+
+    .about-vectorimg {
+        justify-content: flex-end;
+    }
+
+    .about-vectorimg img {
+        width: 314px;
+    }
+
+    .course-vectorimg {
+        display: block;
+    }
+
+    .course-vectorimg img {
+        width: 232px;
+    }
+
+    .course div {
+        width: 20%;
+    }
+
+    .course {
+        align-items: center;
+        justify-content: space-between;
+        font-size: 25px;
+    }
+
+    .whatdowelearn {
+        margin-block: 12em;
+    }
+
+    .whatdowelearn ul {
+        font-size: 24px;
+        width: 45%;
+    }
+
+    .program-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-inline: -3%;
+    }
+
+    .program {
+        width: 380px;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-right: 2em;
+        margin-bottom: 1.3em;
+    }
+
+    .program img {
+        width: 380px;
+    }
+
+    .about-program {
+        font-size: 25px;
+        padding: 0 0 0.8em 0.8em;
+    }
+
+    .about-program .title {
+        font-size: 30px;
+    }
+
+    .without-space h3 {
+        margin-bottom: 0;
+    }
+
+    .course-review {
+        padding-block: 5em;
+        padding-inline: 8em;
+    }
+
+    .course-review h2 {
+        margin-top: 0;
+    }
+
+    .review {
+        width: 45%;
+        padding: 2em;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        line-height: 150%;
+    }
+
+    .review-author {
+        align-items: center;
+    }
+
+    .review-author img {
+        width: 150px;
+    }
+
+    .about-author img {
+        width: 32px;
+        height: 31px;
+    }
+
+    .course-info {
+        padding: 7em;
+    }
+
+    .description div {
+        width: 27%;
+        margin-right: 2em;
+    }
+
+    .description .title {
+        font-size: 25px;
+    }
+
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .socnet img {
+        width: 33px;
+    }
+    .footer{
+        padding-inline: 7em;
+        padding-block: 2em;
+    }
+    .footer div {
+        width: 45%;
+    }
+
+    .footer #logo {
+        width: 115px;
+    }
+
+    .contact {
+        margin: 0;
+        font-size: 25px;
+    }
+
+    .contact img {
+        width: 27px;
+    }
+
+    .contact p {
+        margin-top: 0;
+    }
+
+    .copyright{
+        margin-top: 8em;
+        font-size: var(--small-font-size);
+    }
 }
